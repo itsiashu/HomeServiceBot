@@ -119,8 +119,8 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(add_markers src/add_markers.cpp)
 target_link_libraries(add_markers ${catkin_LIBRARIES})
 
-#add_executable(display_markers src/display_markers.cpp)
-#target_link_libraries(display_markers ${catkin_LIBRARIES})
+add_executable(display_markers src/display_markers.cpp)
+target_link_libraries(display_markers ${catkin_LIBRARIES})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
